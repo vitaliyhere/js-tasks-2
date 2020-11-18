@@ -25,3 +25,9 @@ function min(arr, toReturn) {
   if (toReturn==='index') { return arr.indexOf(Math.min(...arr)) }
 }
 
+DNA to RNA Conversion
+
+function DNAtoRNA(dna) {
+ return dna.replace(/T/g, "U");
+}
+
